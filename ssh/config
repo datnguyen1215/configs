@@ -1,0 +1,9 @@
+Host *
+	PubKeyAcceptedKeyTypes=+ssh-rsa
+	HostKeyAlgorithms=+ssh-rsa
+
+Host github.com-dnguyen-screenbeam
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/id_rsa-dnguyen-screenbeam
+	IdentitiesOnly yes
