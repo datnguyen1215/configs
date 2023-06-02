@@ -1,5 +1,5 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
-recent=xfce-wm-settings.desktop,xfce-keyboard-settings.desktop,xfce-display-settings.desktop,xfce-wmtweaks-settings.desktop,xfce-mouse-settings.desktop,xfce-ui-settings.desktop,xfce-workspaces-settings.desktop,pavucontrol.desktop
+recent=xfce-ui-settings.desktop,thunar.desktop,xfce-session-settings.desktop,anydesk.desktop,xfce-wm-settings.desktop,xfce-settings-manager.desktop,virtualbox.desktop,xfce-workspaces-settings.desktop,xfce-wmtweaks-settings.desktop,xfce4-power-manager-settings.desktop
 button-icon=org.xfce.panel.whiskermenu
 button-single-row=false
 show-button-title=false
