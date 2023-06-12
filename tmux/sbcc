@@ -1,0 +1,31 @@
+# server
+tmux new-session -d
+tmux send-keys 'cd ~/Desktop/work/screenbeam/projects/cc/js/server/' C-m
+tmux send-keys 'nvim .' C-m
+tmux rename-window 'server'
+
+# extensions
+tmux new-window
+tmux send-keys 'cd ~/Desktop/work/screenbeam/projects/cc/js/extensions/' C-m
+tmux send-keys 'nvim .' C-m
+tmux rename-window 'extensions'
+
+# webapp
+tmux new-window
+tmux send-keys 'cd ~/Desktop/work/screenbeam/projects/cc/js/webapp/' C-m
+tmux send-keys 'nvim .' C-m
+tmux rename-window 'webapp'
+
+# bash
+tmux new-window
+tmux send-keys 'cd ~/Desktop/work/screenbeam/projects/cc/js/server' C-m
+tmux send-keys 'npm run dev' C-m
+
+tmux split-window -v
+tmux send-keys 'cd ~/Desktop/work/screenbeam/projects/cc/js/webapp' C-m
+tmux send-keys 'npm run dev' C-m
+
+tmux split-window -v
+tmux send-keys 'cd ~/Desktop/work/screenbeam/projects/cc/js/extensions' C-m
+tmux send-keys 'nvm use v16.0.0' C-m
+tmux send-keys 'npm run watch' C-m
