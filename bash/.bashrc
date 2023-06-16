@@ -136,3 +136,8 @@ export NVM_DIR="$HOME/.nvm"
 
 # Custom aliases
 alias connect-headphone="echo \"connect CC:98:8B:D1:2E:98\" | bluetoothctl"
+alias git-redmine="git log -1; git tag -l | tail -2"
+alias gs='git status'
+alias gc='git commit -m'
+alias gp='git push'
+alias ga='git add'
