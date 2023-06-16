@@ -9,14 +9,14 @@
     <property name="panel-1" type="empty">
       <property name="position" type="string" value="p=8;x=960;y=1066"/>
       <property name="length" type="uint" value="100"/>
-      <property name="position-locked" type="bool" value="false"/>
+      <property name="position-locked" type="bool" value="true"/>
       <property name="icon-size" type="uint" value="0"/>
       <property name="size" type="uint" value="26"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="7"/>
         <value type="int" value="2"/>
         <value type="int" value="1"/>
-        <value type="int" value="4"/>
+        <value type="int" value="3"/>
         <value type="int" value="8"/>
         <value type="int" value="10"/>
         <value type="int" value="11"/>
@@ -47,7 +47,7 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance16193;chromium.instance2457;chromium.instance2540;chromium.instance2576;chromium.instance2669;chromium.instance2690;chromium.instance3330;chromium.instance3617;chromium.instance4171"/>
+      <property name="mpris-players" type="string" value="chromium.instance16193;chromium.instance2457;chromium.instance2486;chromium.instance2540;chromium.instance2569;chromium.instance2576;chromium.instance2598;chromium.instance2669;chromium.instance2690;chromium.instance2701;chromium.instance3330;chromium.instance3617;chromium.instance38377;chromium.instance4042;chromium.instance4171;chromium.instance4470;totem"/>
     </property>
     <property name="plugin-10" type="string" value="notification-plugin"/>
     <property name="plugin-11" type="string" value="separator">
@@ -70,19 +70,17 @@
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-4" type="string" value="systray">
+    <property name="plugin-3" type="string" value="systray">
       <property name="known-legacy-items" type="array">
+        <value type="string" value="anydesk"/>
+        <value type="string" value="network"/>
+        <value type="string" value="networkmanager applet"/>
         <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="ibus panel"/>
       </property>
       <property name="known-items" type="array">
-        <value type="string" value="chrome_status_icon_2"/>
-        <value type="string" value="chrome_status_icon_1"/>
         <value type="string" value="blueman"/>
         <value type="string" value="nm-applet"/>
-      </property>
-      <property name="square-icons" type="bool" value="false"/>
-      <property name="hidden-items" type="array">
       </property>
     </property>
   </property>

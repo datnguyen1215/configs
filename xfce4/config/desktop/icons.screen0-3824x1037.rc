@@ -1,6 +1,10 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
+[/home/dnguyen/Desktop/notes.txt]
+row=4
+col=0
+
 [/home/dnguyen/Desktop/work]
 row=1
 col=0
