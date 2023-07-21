@@ -1,0 +1,40 @@
+{
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSurroundingLines": 15,
+  "workbench.startupEditor": "none",
+  "editor.fontSize": 11,
+  "editor.tabSize": 2,
+  "vim.foldfix": true,
+  "terminal.integrated.fontSize": 11,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "yaml": false
+  },
+  "vscode-neovim.neovimExecutablePaths.linux": "/snap/bin/nvim",
+  "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim/init.lua",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.suggestSelection": "first",
+  "files.exclude": {
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+  },
+  "glassit.alpha": 240,
+  "editor.lineNumbers": "relative",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}
