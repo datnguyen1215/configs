@@ -2,34 +2,26 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "smooth",
   "editor.cursorSurroundingLines": 15,
-  "workbench.startupEditor": "none",
-  "editor.fontSize": 9,
+  "editor.fontSize": 10,
   "editor.tabSize": 2,
-  "vim.foldfix": true,
   "terminal.integrated.fontSize": 10,
   "github.copilot.enable": {
     "*": true,
-    "plaintext": true,
+    "plaintext": false,
     "markdown": true,
     "scminput": false,
     "yaml": false
-  },
-  "vscode-neovim.neovimExecutablePaths.linux": "/snap/bin/nvim",
-  "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim/init.lua",
-  "extensions.experimental.affinity": {
-    "asvetliakov.vscode-neovim": 1
   },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "editor.suggestSelection": "first",
   "files.exclude": {
-      "**/.classpath": true,
-      "**/.project": true,
-      "**/.settings": true,
-      "**/.factorypath": true
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
   },
-  "glassit.alpha": 240,
   "editor.lineNumbers": "relative",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -38,13 +30,113 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.inlineSuggest.enabled": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.trailingComma": "none",
+  "editor.minimap.enabled": false,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[svelte]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "svelte.svelte-vscode"
   },
-  "css.lint.unknownAtRules": "ignore",
   "svelte.enable-ts-plugin": true,
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "vscode.markdown-language-features"
   },
-  "markdown-preview-enhanced.previewTheme": "atom-dark.css",
+  "javascript.preferences.autoImportFileExcludePatterns": [
+    "node_modules/"
+  ],
+  "git.openRepositoryInParentFolders": "never",
+  "vim.leader": ";",
+  "vim.foldfix": true,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "<leader>",
+        "w"
+      ],
+      "commands": [
+        "workbench.action.files.save"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "q"
+      ],
+      "commands": [
+        "workbench.action.closeActiveEditor"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "c",
+        "f"
+      ],
+      "commands": [
+        "editor.action.formatDocument"
+      ]
+    },
+    {
+      "before": [
+        "H"
+      ],
+      "commands": [
+        "workbench.action.previousEditorInGroup"
+      ]
+    },
+    {
+      "before": [
+        "L"
+      ],
+      "commands": [
+        "workbench.action.nextEditorInGroup"
+      ]
+    },
+    {
+      "before": [
+        "<C-h"
+      ],
+      "commands": [
+        "workbench.action.navigateLeft"
+      ]
+    },
+    {
+      "before": [
+        "<C-j"
+      ],
+      "commands": [
+        "workbench.action.navigateDown"
+      ]
+    },
+    {
+      "before": [
+        "<C-k"
+      ],
+      "commands": [
+        "workbench.action.navigateUp"
+      ]
+    },
+    {
+      "before": [
+        "<C-l"
+      ],
+      "commands": [
+        "workbench.action.navigateRight"
+      ]
+    }
+  ],
+  "csharp.suppressDotnetInstallWarning": true,
+  "csharp.suppressDotnetRestoreNotification": true,
+  "glassit.alpha": 240,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "zenMode.hideLineNumbers": false,
+  "[csharp]": {
+    "editor.tabSize": 4,
+    "editor.maxTokenizationLineLength": 2500
+  },
+  "zenMode.fullScreen": false
 }
